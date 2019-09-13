@@ -3,9 +3,9 @@
 
 void main()
 {
-char url[100], AccessToken[]= "jklfjsadlkfjasdkfj";
-snprintf(url, 100, "%s%s", "/api/", AccessToken);
-	snprintf(url + strlen(url), 100 - strlen(url), "%s", "/lights/");
+char url[50], AccessToken[]= "jklfjsadlkfjasdkfj";
+snprintf(url, 50, "%s%s", "/api/", AccessToken);
+	snprintf(url + strlen(url), 50 - strlen(url), "%s", "/lights/");
      printf("%s\n", url);
 
 }
